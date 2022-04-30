@@ -4,6 +4,16 @@
 // 23432 -> да
 // 12821 -> да
 
+// int N=12821; // Короткое решение
+// if (Math.Abs(N/1000-N%100)==9)
+// {
+// Console.Write("да");
+// }
+// else
+// {
+// Console.Write("нет");
+// }
+
 Console.Clear();
 
 int GetValue(string text)
